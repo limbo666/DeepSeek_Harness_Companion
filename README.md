@@ -16,7 +16,7 @@ throw it across the screen and it falls, bounces and settles where it lands.
 **Version** 1.9.0 · **Platform** client-only, Web GUI · **Verified against** `@deepseek-ai/dsh` 0.1.1-rc.2
 · **Tests** 136 assertions, no dependencies
 
-By Nikos Georgousis · **Hand Water Pump**
+By Nikos Georgousis · **Hand Water Pump** · [limbo666/DeepSeek_Harness_Companion](https://github.com/limbo666/DeepSeek_Harness_Companion)
 
 ## Contents
 

@@ -43,5 +43,13 @@
     "mascot"
   ],
   "author": "Nikos Georgousis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limbo666/DeepSeek_Harness_Companion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/limbo666/DeepSeek_Harness_Companion/issues"
+  },
+  "homepage": "https://github.com/limbo666/DeepSeek_Harness_Companion#readme",
   "license": "MIT"
 }
