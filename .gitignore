@@ -1,0 +1,18 @@
+# Build and render output. The design sheets are generated, not source.
+dist/
+renders/
+_sheets/
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NOTE: the shipped README image lives in docs/ and is deliberately NOT ignored.

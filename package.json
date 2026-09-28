@@ -1,0 +1,47 @@
+{
+  "name": "dsh-companion-face",
+  "version": "1.9.0",
+  "description": "Draggable, conversation-reactive companion face for the DSH Web GUI: pointer-following eyes, 36 expressions driven by real session state, praise-triggered accessories and long-haul drift objects.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "README.md",
+    "CHANGELOG.md",
+    "DESIGN.md",
+    "LICENSE",
+    "docs/mood-sheet.png",
+    "install.ps1",
+    "install.sh",
+    "verify.mjs",
+    "tools/assess.mjs",
+    "tools/check-drift.mjs",
+    "tools/check-fx.mjs",
+    "tools/sheet.mjs"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "companion",
+    "mascot"
+  ],
+  "author": "Nikos Georgousis",
+  "license": "MIT"
+}
