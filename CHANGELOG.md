@@ -69,6 +69,11 @@ Also: `tools/sheet.mjs` gained a `node_modules/sharp` candidate beside the packa
 `npm i sharp` can render without a DSH profile; and `install.sh` is now documented as **reviewed
 but never executed** — the development machine has no POSIX shell.
 
+`.gitattributes` forces `eol=lf` for every text file. The development machine has
+`core.autocrlf=true`, so `install.sh` would otherwise be checked out on Windows as CRLF and then
+fail on Linux with `bash\r: No such file or directory`. Since that script is the one path that has
+never been run, it is not left to depend on a local git setting.
+
 ## v28 — switches for every behaviour
 
 **128 checks** · new page: **Settings → Plugins → Companion**
