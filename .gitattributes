@@ -1,0 +1,11 @@
+# Keep every text file LF in the repository AND in working copies.
+#
+# This machine has core.autocrlf=true, which would check files out as CRLF on Windows. That is
+# harmless for the JavaScript, but fatal for install.sh: a CRLF shell script fails on Linux with
+# "bash\r: No such file or directory" or a cryptic `set -euo pipefail\r: command not found`.
+# install.sh is the one path in this project that has never been executed, so it gets no second
+# chance to be diagnosed — it is forced to LF here rather than left to a local git setting.
+* text=auto eol=lf
+
+# The design sheets are binary; never let git rewrite their line endings.
+*.png binary
